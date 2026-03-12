@@ -2,18 +2,24 @@
 /* Layout */
 /*////////*/
 
-.v-align, h-align, 
-.btn, .search-btn {
+.v-align,
+h-align,
+.btn,
+.search-btn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.v-align, .btn, .search-btn {
+.v-align,
+.btn,
+.search-btn {
   flex-direction: column;
 }
 
-.h-align, .btn, .search-btn {
+.h-align,
+.btn,
+.search-btn {
   flex-direction: row;
 }
 
@@ -33,4 +39,20 @@
 
 .p-30 {
   padding: 30px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
 }

@@ -6,10 +6,14 @@
   --item-padding: 6px 12px;
   --search-button-size: 50px;
   --search-button-count: 7;
-  --search-menu-height: calc(var(--search-button-count) * var(--search-button-size));
+  --search-menu-height: calc(
+    var(--search-button-count) * var(--search-button-size)
+  );
   --body-padding: 30px;
   --max-width: 640px;
-  --search-input-width: calc(var(--max-width) - var(--search-button-size) - 2 * var(--body-padding));
+  --search-input-width: calc(
+    var(--max-width) - var(--search-button-size) - 2 * var(--body-padding)
+  );
 }
 
 body {
@@ -23,7 +27,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 1.25rem;
 }
 
@@ -32,6 +36,21 @@ h2 {
   text-align: center;
   transition: all 0.3s ease;
   color: #fff;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  max-width: var(--max-width);
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+p {
+  margin: 0;
+  color: #fff;
+  text-align: center;
 }
 
 h2 > i {
@@ -66,9 +85,9 @@ footer a:hover {
 }
 
 .new-tab-icon::after {
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 900; 
-  content: "\f35d";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f35d';
   margin-left: 5px;
 }
 
